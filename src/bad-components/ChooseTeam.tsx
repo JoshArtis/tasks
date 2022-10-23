@@ -31,7 +31,7 @@ export function ChooseTeam(): JSX.Element {
                 <Col>
                     {allOptions.map((option: string) => (
                         <div key={option} style={{ marginBottom: "4px" }}>
-                            Add{" "}
+                            Choose Member{" "}
                             <Button
                                 onClick={() => chooseMember(option)}
                                 size="sm"

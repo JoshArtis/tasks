@@ -16,7 +16,7 @@ export function DoubleHalf(): JSX.Element {
         <div>
             <h3>Double Half</h3>
             <div>
-                The current value is: <span>{dhValue}</span>
+                Current Value: <span>{dhValue}</span>
             </div>
             <Doubler setDhValue={setDhValue} dhValue={dhValue}></Doubler>
             <Halver setDhValue={setDhValue} dhValue={dhValue}></Halver>
